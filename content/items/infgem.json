@@ -1,0 +1,13 @@
+{
+	"name": "Inferno Gem",
+	"description": "a mystical stone that powers [red]inferno magic",
+	"color": "f2391c",
+	"hardness": 0.6,
+	"flammability": 1,
+	"explosiveness": 0.4,
+	"radioactivity": 0.5,
+	"charge": 0.05,
+	"research": {
+	"parent": "emptygem",
+  }
+}

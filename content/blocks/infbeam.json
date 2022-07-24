@@ -1,0 +1,33 @@
+{
+	"name": "[red]Inferno Launcher",
+	"type": "ItemTurret",
+	"description": "Turret using [red]Inferno Gems[white] to fire [red]Inferno Lasers",
+	"color": "6e6f7f",
+	"category": "turret",
+	"recoilAmount": 3,
+	"rotateSpeed": 90,
+	"hasPower": true,
+	"range": 60,
+	"liquidCapacity": 30,
+	"itemCapacity": 20,
+	"reloadTime": 25,
+	"ammoTypes": {
+	  "infgem": "fireball"
+	}
+	"buildVisibility": "shown",
+	"health": 200,
+	"breakable": true,
+	"research": {
+	"parent": "infwall",
+	"requirements": [
+	"infgem/25"
+	"titanium/1000"
+  ]
+  },
+	"requirements": [
+	"titanium/50"
+	"infgem/30"
+	"metaglass/25"
+	]
+}
+

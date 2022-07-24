@@ -1,0 +1,40 @@
+{
+	"name": "[grey]Gem Refiner",
+	"type": "GenericCrafter",
+	"category": "crafting",
+	"description": "A factory that refines Metaglass into [grey]Empty Gems",
+	"color": "838383",
+	"hardness": 1,
+	"flammability": 0.15,
+	"explosiveness": 0,
+	"radioactivity": 0,
+	"charge": 0.1,
+	"destructible": true,
+	"size": 2,
+	"health": 250,
+	"hasPower": true,
+	"outputItem": "emptygem/1",
+	"craftEffect": "generatespark",
+	"craftTime": 100,
+	"buildVisibility": "shown",
+	"consumes": {
+	 "power": 1,
+	 "items": {
+	    "items": [
+	      "metaglass/2"
+	]
+	}
+ 	},
+	"research": {
+	"parent": "kiln",
+	"requirements": [
+	"metaglass/1000"
+	"copper/1250"
+	]
+	},
+	"requirements": [
+	"lead/25"
+	"copper/75"
+	"metaglass/50"
+	]
+}

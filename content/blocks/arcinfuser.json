@@ -1,0 +1,42 @@
+{
+	"name": "[purple]Arcane Gem Infuser",
+	"type": "GenericCrafter",
+	"category": "crafting",
+	"description": "A factory infusing [grey]Empty Gems[white] with [pink]Wisps of Magic[white] to create [purple]Arcane Gems",
+	"color": "a832ec",
+	"hardness": 1,
+	"flammability": 0.15,
+	"explosiveness": 0.2,
+	"radioactivity": 0.75,
+	"charge": 0.1,
+	"destructible": true,
+	"size": 2,
+	"health": 300,
+	"hasPower": true,
+	"outputItem": "arcgem/1",
+	"craftEffect": "generatespark",
+	"craftTime": 100,
+	"buildVisibility": "shown",
+	"consumes": {
+	 "power": 1
+	 "items": {
+	    "items": [
+	      "emptygem/1"
+	      "magicwisp/3"
+	]
+	},
+ 	},
+	"research": {
+	"parent": "gemrefiner",
+	"requirements": [
+	"emptygem/250"
+	"magicwisp/100"
+  ]
+  },
+	"requirements": [
+	"lead/25"
+	"copper/75"
+	"metaglass/25"
+	"magicwisp/50"
+	]
+}

@@ -1,0 +1,34 @@
+{
+	"name": "[pink]Magic Wisp Extractor",
+	"type": "Drill",
+	"category": "production",
+	"description": "A device used to extract [pink]Wisps of Magic[white] from the ground",
+	"color": "ac1cff",
+	"hardness": 1,
+	"flammability": 0.1,
+	"explosiveness": 0.1,
+	"radioactivity": 0,
+	"charge": 0.1,
+	"destructible": true,
+	"size": 2,
+	"health": 325,
+	"hasPower": true,
+	"drillTime": 850,
+	"rotateSpeed": 5,
+	"tier": -1,
+	"buildVisibility": "shown",
+	"consumes": {
+	 "power": 1
+ 	},
+	"research": {
+	"parent": "gemrefiner",
+	"requirements": [
+	"emptygem/300"
+	"titanium/1000"
+  ]
+  },
+	"requirements": [
+	"titanium/50"
+	"copper/75"
+	]
+}

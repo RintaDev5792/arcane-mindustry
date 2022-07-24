@@ -1,0 +1,42 @@
+{
+	"name": "[red]Inferno Gem Infuser",
+	"type": "GenericCrafter",
+	"category": "crafting",
+	"description": "A factory infusing [grey]Empty Gems[white] with [orange]Pyratite [white]to create [red]Inferno Gems",
+	"color": "cc3620",
+	"hardness": 1,
+	"flammability": 0.5,
+	"explosiveness": 0.1,
+	"radioactivity": 0,
+	"charge": 0.1,
+	"destructible": true,
+	"size": 2,
+	"health": 300,
+	"hasPower": true,
+	"outputItem": "infgem/1",
+	"craftEffect": "generatespark",
+	"craftTime": 100,
+	"buildVisibility": "shown",
+	"consumes": {
+	 "power": 1
+	 "items": {
+	    "items": [
+	      "emptygem/1"
+	      "pyratite/3"
+	]
+	},
+ 	},
+	"research": {
+	"parent": "gemrefiner",
+	"requirements": [
+	"emptygem/250"
+	"pyratite/100"
+  ]
+  },
+	"requirements": [
+	"lead/25"
+	"copper/75"
+	"metaglass/25"
+	"pyratite/50"
+	]
+}

@@ -1,0 +1,33 @@
+{
+	"name": "[purple]Arcane Shield",
+	"type": "ForceProjector",
+	"description": "A [purple]Arcane Gem[white] powered force field generator",
+	"color": "6e6f7f",
+	"category": "defense",
+	"buildVisibility": "shown",
+	"health": 750,
+	"size": 1,
+	"breakable": true,
+	"basePowerDraw": 1,
+	"breakage": 1000,
+	"phaseRadiusBoost": 100,
+	"radius": 200,
+	"cooldownNormal": 5,
+	"cooldDownLiquid": 3,
+	"research": {
+	"parent": "arcwall",
+	"requirements": [
+	"arcgem/25"
+	"lead/1000"
+	"copper/1000"
+	"titanium/750"
+  ]
+  },
+	"requirements": [
+	"titanium/10"
+	"lead/15"
+	"copper/15"
+	"arcgem/50"
+	]
+}
+

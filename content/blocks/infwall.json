@@ -1,0 +1,23 @@
+{
+	"name": "[red]Inferno Wall",
+	"type": "Wall",
+	"description": "Wall infused with [red]Inferno Gems",
+	"color": "6e6f7f",
+	"category": "defense",
+	"buildVisibility": "shown",
+	"health": 600,
+	"hitTime": 5,
+	"maxDamageDeflect": 25,
+	"breakable": true,
+	"research": {
+	"parent": "arcinfuser",
+	"requirements": [
+	"infgem/25"
+  ]
+  },
+	"requirements": [
+	"titanium/5"
+	"infgem/2"
+	]
+}
+
